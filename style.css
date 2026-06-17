@@ -630,3 +630,12 @@ footer{
     }
 
 }
+.offer-card .btn-primary{
+    display:inline-block;
+    margin-top:20px;
+}
+
+.offer-card p{
+    margin-top:15px;
+    margin-bottom:20px;
+}
