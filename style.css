@@ -1121,10 +1121,21 @@ font-family:inherit;
 
 font-size:1rem;
 
+   width:100%;
+
+background:white;
+
 }
 
 .contact-form input:focus,
-.contact-form textarea:focus{
+.contact-form textarea:focus,
+.contact-form select:focus{
+
+outline:none;
+
+border-color:var(--gold);
+
+}
 
 outline:none;
 
