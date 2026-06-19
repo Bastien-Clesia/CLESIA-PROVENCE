@@ -565,7 +565,31 @@ grid-template-columns:repeat(2,1fr);
 gap:40px;
 
 }
+/* ==================================
+   IMAGES OFFRES
+================================== */
 
+.offre-image{
+
+width:100%;
+
+height:240px;
+
+object-fit:cover;
+
+border-radius:18px;
+
+margin-bottom:30px;
+
+display:block;
+
+}
+
+.featured .offre-image{
+
+height:260px;
+
+}
 .offre-card{
 
 background:white;
