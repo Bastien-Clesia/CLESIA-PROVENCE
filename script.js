@@ -226,24 +226,6 @@ window.addEventListener("load", () => {
 
 });
 
-/* ==================================
-   PARALLAX HERO LÉGER
-================================== */
-
-const hero = document.querySelector(".hero");
-
-window.addEventListener("scroll", () => {
-
-    if (hero && window.innerWidth > 992) {
-
-        const offset = window.pageYOffset;
-
-        hero.style.backgroundPositionY =
-            offset * 0.4 + "px";
-
-    }
-
-});
 
 /* ==================================
    ANIMATION CSS
