@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -9,7 +10,10 @@
 <title>Nature & Paysages du Luberon | Clésia Provence</title>
 
 <meta name="description"
-content="Découvrez les plus beaux paysages naturels de Provence : Mont Ventoux, Fontaine-de-Vaucluse, Colorado Provençal et sites incontournables du Luberon.">
+content="Explorez les plus beaux paysages de Provence : Mont Ventoux, Fontaine-de-Vaucluse, Colorado Provençal, Gorges de la Nesque et sites naturels incontournables du Luberon.">
+
+<meta name="keywords"
+content="nature Provence, Mont Ventoux, Fontaine de Vaucluse, Colorado Provençal, paysages Luberon">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,14 +37,27 @@ rel="stylesheet">
 
 <nav class="nav">
 <a href="index.html">Accueil</a>
-<a href="guide-touristique.html">Guide</a>
+<a href="guide-touristique.html">Guide Touristique</a>
 </nav>
+
+<button class="burger" id="burger">
+<span></span>
+<span></span>
+<span></span>
+</button>
 
 </div>
 
 </header>
 
-<section class="hero-guide">
+<section class="hero-guide"
+style="
+background:
+linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
+url('assets/nature/ventoux.webp');
+background-size:cover;
+background-position:center;
+">
 
 <div class="overlay">
 
@@ -51,12 +68,12 @@ Nature & Paysages
 </span>
 
 <h1>
-Les plus beaux paysages de Provence
+Les trésors naturels de Provence
 </h1>
 
 <p>
-Entre montagnes, sources naturelles et panoramas exceptionnels,
-découvrez les trésors naturels du Vaucluse.
+Des panoramas spectaculaires aux sites naturels préservés,
+la Provence offre une diversité de paysages exceptionnelle.
 </p>
 
 <a href="guide-touristique.html" class="btn-gold">
@@ -73,51 +90,131 @@ Retour au guide
 
 <div class="container">
 
+<div class="section-header">
+
+<span class="section-tag">
+Nature Provençale
+</span>
+
+<h2>
+Des paysages à couper le souffle
+</h2>
+
+<p>
+Découvrez les lieux naturels les plus emblématiques
+du Vaucluse et du Luberon.
+</p>
+
+</div>
+
 <div class="guide-grid">
 
 <div class="guide-card">
-<img src="assets/nature/ventoux.webp" alt="Mont Ventoux">
+
+<img src="assets/nature/ventoux.webp"
+alt="Mont Ventoux">
+
 <div class="content">
+
 <h3>Mont Ventoux</h3>
+
 <p>
-Surnommé le Géant de Provence, il domine la région
-et offre un panorama spectaculaire sur les Alpes
-et la vallée du Rhône.
+Surnommé le Géant de Provence, il culmine à 1 909 mètres
+et offre des panoramas exceptionnels sur toute la région.
 </p>
+
 </div>
+
 </div>
 
 <div class="guide-card">
-<img src="assets/nature/fontaine-vaucluse.webp" alt="Fontaine de Vaucluse">
+
+<img src="assets/nature/fontaine-vaucluse.webp"
+alt="Fontaine de Vaucluse">
+
 <div class="content">
+
 <h3>Fontaine-de-Vaucluse</h3>
+
 <p>
-L'une des plus importantes résurgences d'Europe,
-au cœur d'un village plein de charme.
+Cette source mythique compte parmi les plus puissantes d'Europe
+et attire chaque année de nombreux visiteurs.
 </p>
+
 </div>
+
 </div>
 
 <div class="guide-card">
-<img src="assets/nature/colorado.webp" alt="Colorado Provençal">
+
+<img src="assets/nature/colorado.webp"
+alt="Colorado Provençal">
+
 <div class="content">
+
 <h3>Colorado Provençal</h3>
+
 <p>
-Un décor spectaculaire aux couleurs d'ocre
-rappelant les paysages de l'Ouest américain.
+Un paysage unique façonné par les anciennes carrières d'ocre,
+aux couleurs spectaculaires.
 </p>
+
 </div>
+
 </div>
 
 <div class="guide-card">
-<img src="assets/nature/senanque.webp" alt="Abbaye de Sénanque">
+
+<img src="assets/nature/senanque.webp"
+alt="Abbaye de Sénanque">
+
 <div class="content">
+
 <h3>Abbaye de Sénanque</h3>
+
 <p>
-L'un des lieux les plus photographiés de Provence,
-entouré de champs de lavande.
+Entourée de lavandes en été, elle offre l'un des panoramas
+les plus emblématiques de Provence.
 </p>
+
 </div>
+
+</div>
+
+<div class="guide-card">
+
+<img src="assets/villages/bonnieux.webp"
+alt="Panoramas du Luberon">
+
+<div class="content">
+
+<h3>Panoramas du Luberon</h3>
+
+<p>
+Les collines et villages perchés offrent des points de vue
+exceptionnels sur la vallée provençale.
+</p>
+
+</div>
+
+</div>
+
+<div class="guide-card">
+
+<img src="assets/villages/gordes.webp"
+alt="Paysages du Luberon">
+
+<div class="content">
+
+<h3>Paysages du Luberon</h3>
+
+<p>
+Entre champs de lavande, vignobles et oliveraies,
+la nature provençale dévoile toute sa beauté.
+</p>
+
+</div>
+
 </div>
 
 </div>
@@ -133,20 +230,33 @@ entouré de champs de lavande.
 <div class="footer-grid">
 
 <div>
-<img src="assets/logo/logo-clesia.png" alt="Clésia Provence" class="footer-logo">
-<p>La conciergerie de confiance pour vos biens en Provence.</p>
+
+<img src="assets/logo/logo-clesia.png"
+alt="Clésia Provence"
+class="footer-logo">
+
+<p>
+La conciergerie de confiance pour vos biens en Provence.
+</p>
+
 </div>
 
 <div>
+
 <h4>Coordonnées</h4>
+
 <p>📍 Le Thor (84)</p>
 <p>📞 06 40 14 82 58</p>
 <p>✉️ clesia-provence@outlook.fr</p>
+
 </div>
 
 <div>
+
 <h4>Navigation</h4>
+
 <p><a href="guide-touristique.html">Retour au guide</a></p>
+
 </div>
 
 </div>
@@ -159,6 +269,9 @@ entouré de champs de lavande.
 
 </footer>
 
+<script src="script.js"></script>
+
 </body>
 
 </html>
+```
