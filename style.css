@@ -1772,3 +1772,35 @@ outline-offset:2px;
 .guide-card p{
     color:#666;
 }
+/* ==================================
+   HERO GUIDE TOURISTIQUE
+================================== */
+
+.hero-guide{
+    height:65vh;
+    background:
+    linear-gradient(rgba(0,0,0,.45),
+    rgba(0,0,0,.45)),
+    url("assets/nature/ventoux.webp");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+
+.hero-guide-content{
+    color:white;
+    max-width:900px;
+    padding:20px;
+}
+
+.hero-guide-content h1{
+    margin:25px 0;
+}
+
+.hero-guide-content p{
+    font-size:1.15rem;
+    margin-bottom:35px;
+}
