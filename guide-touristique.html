@@ -1,149 +1,264 @@
-<section class="guide-categories">
+<!DOCTYPE html>
+<html lang="fr">
 
-    <div class="container">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <div class="section-header">
-            <span class="section-tag">Guide Touristique</span>
+    <title>Guide Touristique | Clésia Provence</title>
 
-            <h1>
-                Explorez la Provence autrement
-            </h1>
+    <meta name="description"
+        content="Découvrez les plus beaux villages, sites naturels, activités, domaines viticoles et lieux incontournables du Luberon et du Vaucluse.">
 
-            <p>
-                Découvrez les plus beaux lieux, activités,
-                saveurs et trésors du Vaucluse et du Luberon.
-            </p>
-        </div>
+    <meta name="keywords"
+        content="Luberon, Vaucluse, Provence, Gordes, Roussillon, patrimoine, activités, gastronomie">
 
-        <div class="categories-grid">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-            <!-- ACTIVITÉS -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 
-            <article class="category-card">
+    <link rel="stylesheet" href="style.css">
+</head>
 
-                <img src="assets/categories/activites.webp"
-                     alt="Activités en Provence">
+<body>
 
-                <div class="content">
+    <!-- HEADER -->
 
-                    <h2>Activités</h2>
+    <header class="header">
 
-                    <p>
-                        Canoë, vélo, randonnées,
-                        marchés provençaux, loisirs en famille
-                        et expériences inoubliables.
-                    </p>
+        <div class="container">
 
-                    <a href="activites.html" class="btn-gold">
-                        Je découvre
-                    </a>
+            <a href="index.html" class="logo">
+                <img src="assets/logo/logo-clesia.png" alt="Clésia Provence">
+            </a>
 
-                </div>
+            <nav class="nav">
+                <a href="index.html">Accueil</a>
+                <a href="guide-touristique.html">Guide</a>
+            </nav>
 
-            </article>
-
-            <!-- NATURE -->
-
-            <article class="category-card">
-
-                <img src="assets/categories/nature.webp"
-                     alt="Nature et paysages">
-
-                <div class="content">
-
-                    <h2>Nature & Paysages</h2>
-
-                    <p>
-                        Mont Ventoux, Fontaine-de-Vaucluse,
-                        Colorado Provençal et panoramas
-                        exceptionnels.
-                    </p>
-
-                    <a href="nature.html" class="btn-gold">
-                        Je découvre
-                    </a>
-
-                </div>
-
-            </article>
-
-            <!-- GASTRONOMIE -->
-
-            <article class="category-card">
-
-                <img src="assets/categories/gastronomie.webp"
-                     alt="Vins et gastronomie">
-
-                <div class="content">
-
-                    <h2>Vins & Gastronomie</h2>
-
-                    <p>
-                        Domaines viticoles, dégustations,
-                        marchés locaux et spécialités
-                        provençales.
-                    </p>
-
-                    <a href="gastronomie.html" class="btn-gold">
-                        Je découvre
-                    </a>
-
-                </div>
-
-            </article>
-
-            <!-- PATRIMOINE -->
-
-            <article class="category-card">
-
-                <img src="assets/categories/patrimoine.webp"
-                     alt="Patrimoine">
-
-                <div class="content">
-
-                    <h2>Patrimoine</h2>
-
-                    <p>
-                        Abbayes, châteaux,
-                        monuments historiques
-                        et sites emblématiques.
-                    </p>
-
-                    <a href="patrimoine.html" class="btn-gold">
-                        Je découvre
-                    </a>
-
-                </div>
-
-            </article>
-
-            <!-- VILLAGES -->
-
-            <article class="category-card">
-
-                <img src="assets/categories/villages.webp"
-                     alt="Villages à découvrir">
-
-                <div class="content">
-
-                    <h2>Villages à découvrir</h2>
-
-                    <p>
-                        Gordes, Roussillon,
-                        Ménerbes, Lourmarin
-                        et les plus beaux villages du Luberon.
-                    </p>
-
-                    <a href="villages.html" class="btn-gold">
-                        Je découvre
-                    </a>
-
-                </div>
-
-            </article>
+            <button class="burger" id="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
 
         </div>
 
-    </div>
+    </header>
 
-</section>
+    <!-- GUIDE -->
+
+    <section class="guide-categories">
+
+        <div class="container">
+
+            <div class="section-header">
+
+                <span class="section-tag">
+                    Guide Touristique
+                </span>
+
+                <h1>
+                    Explorez la Provence autrement
+                </h1>
+
+                <p>
+                    Découvrez les plus beaux lieux, activités,
+                    saveurs et trésors du Vaucluse et du Luberon.
+                </p>
+
+            </div>
+
+            <div class="categories-grid">
+
+                <!-- ACTIVITES -->
+
+                <article class="category-card">
+
+                    <img src="assets/activites/canoe.webp"
+                        alt="Activités en Provence">
+
+                    <div class="content">
+
+                        <h2>Activités</h2>
+
+                        <p>
+                            Canoë, randonnées, vélo,
+                            marchés provençaux et expériences
+                            à vivre en famille ou entre amis.
+                        </p>
+
+                        <a href="activites.html" class="btn-gold">
+                            Je découvre
+                        </a>
+
+                    </div>
+
+                </article>
+
+                <!-- NATURE -->
+
+                <article class="category-card">
+
+                    <img src="assets/nature/ventoux.webp"
+                        alt="Nature et paysages">
+
+                    <div class="content">
+
+                        <h2>Nature & Paysages</h2>
+
+                        <p>
+                            Mont Ventoux, Fontaine-de-Vaucluse,
+                            Colorado Provençal et panoramas
+                            exceptionnels.
+                        </p>
+
+                        <a href="nature.html" class="btn-gold">
+                            Je découvre
+                        </a>
+
+                    </div>
+
+                </article>
+
+                <!-- GASTRONOMIE -->
+
+                <article class="category-card">
+
+                    <img src="assets/activites/vignoble.webp"
+                        alt="Vins et gastronomie">
+
+                    <div class="content">
+
+                        <h2>Vins & Gastronomie</h2>
+
+                        <p>
+                            Domaines viticoles, dégustations,
+                            marchés locaux et spécialités
+                            provençales.
+                        </p>
+
+                        <a href="gastronomie.html" class="btn-gold">
+                            Je découvre
+                        </a>
+
+                    </div>
+
+                </article>
+
+                <!-- PATRIMOINE -->
+
+                <article class="category-card">
+
+                    <img src="assets/nature/senanque.webp"
+                        alt="Patrimoine">
+
+                    <div class="content">
+
+                        <h2>Patrimoine</h2>
+
+                        <p>
+                            Abbayes, monuments historiques,
+                            châteaux et sites emblématiques
+                            de Provence.
+                        </p>
+
+                        <a href="patrimoine.html" class="btn-gold">
+                            Je découvre
+                        </a>
+
+                    </div>
+
+                </article>
+
+                <!-- VILLAGES -->
+
+                <article class="category-card">
+
+                    <img src="assets/villages/gordes.webp"
+                        alt="Villages du Luberon">
+
+                    <div class="content">
+
+                        <h2>Villages à découvrir</h2>
+
+                        <p>
+                            Gordes, Roussillon, Ménerbes,
+                            Bonnieux, Lourmarin et les plus beaux
+                            villages du Luberon.
+                        </p>
+
+                        <a href="villages.html" class="btn-gold">
+                            Je découvre
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="footer-grid">
+
+                <div>
+
+                    <img src="assets/logo/logo-clesia.png"
+                        alt="Clésia Provence"
+                        class="footer-logo">
+
+                    <p>
+                        La conciergerie de confiance
+                        pour vos biens en Provence.
+                    </p>
+
+                </div>
+
+                <div>
+
+                    <h4>Coordonnées</h4>
+
+                    <p>📍 Le Thor (84)</p>
+                    <p>📞 06 40 14 82 58</p>
+                    <p>✉️ clesia-provence@outlook.fr</p>
+
+                </div>
+
+                <div>
+
+                    <h4>Retour</h4>
+
+                    <p>
+                        <a href="index.html">Accueil</a>
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2025 Clésia Provence</p>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
