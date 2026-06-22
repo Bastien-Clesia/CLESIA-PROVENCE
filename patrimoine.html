@@ -1,45 +1,279 @@
-<title>Patrimoine & Histoire | Clésia Provence</title>
+```html
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Patrimoine & Histoire en Provence | Clésia Provence</title>
 
 <meta name="description"
-content="Découvrez les monuments historiques, abbayes, châteaux et trésors culturels du Luberon et du Vaucluse.">
-<section class="guide-detail">
+content="Découvrez les trésors du patrimoine provençal : Abbaye de Sénanque, Palais des Papes, châteaux, villages historiques et monuments emblématiques du Vaucluse.">
 
-    <div class="container">
+<meta name="keywords"
+content="patrimoine Provence, Abbaye de Sénanque, Palais des Papes, château Lourmarin, histoire Vaucluse">
 
-        <div class="section-header">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-            <span class="section-tag">
-                Guide Touristique
-            </span>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap"
+rel="stylesheet">
 
-            <h1>
-                Titre de la page
-            </h1>
+<link rel="stylesheet" href="style.css">
 
-            <p>
-                Texte d'introduction SEO.
-            </p>
+</head>
 
-        </div>
+<body>
 
-        <div class="guide-grid">
+<header class="header">
 
-            <div class="guide-card">
+<div class="container">
 
-                <img src="IMAGE.webp" alt="Nom">
+<a href="index.html" class="logo">
+<img src="assets/logo/logo-clesia.png" alt="Clésia Provence">
+</a>
 
-                <div class="content">
+<nav class="nav">
+<a href="index.html">Accueil</a>
+<a href="guide-touristique.html">Guide Touristique</a>
+</nav>
 
-                    <h3>Nom du lieu</h3>
+<button class="burger" id="burger">
+<span></span>
+<span></span>
+<span></span>
+</button>
 
-                    <p>Description détaillée...</p>
+</div>
 
-                </div>
+</header>
 
-            </div>
+<section class="hero-guide"
+style="
+background:
+linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
+url('assets/nature/senanque.webp');
+background-size:cover;
+background-position:center;
+">
 
-        </div>
+<div class="overlay">
 
-    </div>
+<div class="hero-guide-content">
+
+<span class="section-tag">
+Patrimoine
+</span>
+
+<h1>
+L'histoire et l'âme de la Provence
+</h1>
+
+<p>
+Partez à la découverte des monuments emblématiques,
+abbayes, châteaux et trésors culturels du Vaucluse.
+</p>
+
+<a href="guide-touristique.html" class="btn-gold">
+Retour au guide
+</a>
+
+</div>
+
+</div>
 
 </section>
+
+<section class="guide-detail">
+
+<div class="container">
+
+<div class="section-header">
+
+<span class="section-tag">
+Patrimoine Provençal
+</span>
+
+<h2>
+Des siècles d'histoire à découvrir
+</h2>
+
+<p>
+La Provence regorge de lieux chargés d'histoire,
+de spiritualité et de traditions.
+</p>
+
+</div>
+
+<div class="guide-grid">
+
+<div class="guide-card">
+
+<img src="assets/nature/senanque.webp"
+alt="Abbaye de Sénanque">
+
+<div class="content">
+
+<h3>Abbaye de Sénanque</h3>
+
+<p>
+Fondée au XIIe siècle, cette abbaye cistercienne
+est l'un des symboles les plus célèbres de Provence,
+notamment grâce à ses champs de lavande.
+</p>
+
+</div>
+
+</div>
+
+<div class="guide-card">
+
+<img src="assets/villages/lourmarin.webp"
+alt="Château de Lourmarin">
+
+<div class="content">
+
+<h3>Château de Lourmarin</h3>
+
+<p>
+Magnifique château Renaissance,
+il témoigne de la richesse historique
+du Luberon.
+</p>
+
+</div>
+
+</div>
+
+<div class="guide-card">
+
+<img src="assets/villages/gordes.webp"
+alt="Village des Bories">
+
+<div class="content">
+
+<h3>Village des Bories</h3>
+
+<p>
+Un ensemble exceptionnel de constructions en pierre sèche,
+véritable témoignage de l'architecture rurale provençale.
+</p>
+
+</div>
+
+</div>
+
+<div class="guide-card">
+
+<img src="assets/villages/menerbes.webp"
+alt="Ménerbes historique">
+
+<div class="content">
+
+<h3>Ménerbes</h3>
+
+<p>
+Village chargé d'histoire ayant accueilli
+de nombreux artistes et écrivains au fil des siècles.
+</p>
+
+</div>
+
+</div>
+
+<div class="guide-card">
+
+<img src="assets/villages/bonnieux.webp"
+alt="Patrimoine du Luberon">
+
+<div class="content">
+
+<h3>Bonnieux</h3>
+
+<p>
+Ses églises anciennes, ses ruelles et son patrimoine
+en font une étape incontournable.
+</p>
+
+</div>
+
+</div>
+
+<div class="guide-card">
+
+<img src="assets/nature/fontaine-vaucluse.webp"
+alt="Fontaine de Vaucluse">
+
+<div class="content">
+
+<h3>Fontaine-de-Vaucluse</h3>
+
+<p>
+Lieu historique lié au poète Pétrarque,
+ce village associe patrimoine culturel et naturel.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<footer class="footer">
+
+<div class="container">
+
+<div class="footer-grid">
+
+<div>
+
+<img src="assets/logo/logo-clesia.png"
+alt="Clésia Provence"
+class="footer-logo">
+
+<p>
+La conciergerie de confiance pour vos biens en Provence.
+</p>
+
+</div>
+
+<div>
+
+<h4>Coordonnées</h4>
+
+<p>📍 Le Thor (84)</p>
+<p>📞 06 40 14 82 58</p>
+<p>✉️ clesia-provence@outlook.fr</p>
+
+</div>
+
+<div>
+
+<h4>Navigation</h4>
+
+<p><a href="guide-touristique.html">Retour au guide</a></p>
+
+</div>
+
+</div>
+
+<div class="footer-bottom">
+<p>© 2025 Clésia Provence</p>
+</div>
+
+</div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
+```
