@@ -427,15 +427,22 @@ background:white;
 }
 
 .trust-grid{
-
-display:grid;
-
-grid-template-columns:repeat(4,1fr);
-
-gap:30px;
-
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:30px;
 }
 
+@media (max-width:992px){
+    .trust-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+}
+
+@media (max-width:576px){
+    .trust-grid{
+        grid-template-columns:1fr;
+    }
+}
 .trust-item{
 
 text-align:center;
@@ -1803,4 +1810,34 @@ outline-offset:2px;
 .hero-guide-content p{
     font-size:1.15rem;
     margin-bottom:35px;
+}
+/* ==================================
+   RESPONSIVE MOBILE
+================================== */
+
+@media (max-width:768px){
+
+    .trust-bar{
+        padding:60px 0;
+    }
+
+    .trust-grid{
+        grid-template-columns:1fr;
+        gap:20px;
+    }
+
+    .trust-item{
+        padding:25px 20px;
+    }
+
+    .trust-icon{
+        width:60px;
+        height:60px;
+        font-size:24px;
+    }
+
+    .trust-item h3{
+        font-size:1.2rem;
+    }
+
 }
